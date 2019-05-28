@@ -1,9 +1,9 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 client.on('ready', () => {
-  client.user.setGame(` By MΛTЯIXᴴᴰ#0028 .`,'https://www.twitch.tv/v5bz');
+  client.user.setGame(` By MΛTЯIXᴴᴰ#0028 .`,'https://www.twitch.tv/randomgate');
   console.log('---------------');
-  console.log('Spirits Family System Is Online')
+  console.log('Random Gate System Is Online')
   console.log('---------------')
 });
 client.on('message', message => {
@@ -17,15 +17,15 @@ if (message.content === '*help') {
          let embed = new Discord.RichEmbed()
 .setThumbnail(message.author.avatarURL)    
       .addField("**:globe_with_meridians: General Commands**","** **")
-      .addField("***ping :stopwatch:**","**لـ سرعة إتصالك**")
+      .addField("***ping :stopwatch:**","**لـسرعة إتصالك**")
       .addField("***id :chart_with_downwards_trend:**","**عرض سرعه اتصال البوت**")
       .addField("***avatar :camping:**","**لـ صور الشخص المختار**")
-      .addField("***roll :1234:**","**لـ القرعه من 1 - 100**")
-      .addField("***server :recycle:**","**لـ معلومات السيرفر**")
-      .addField("***roles :medal: **","**مسح محادثات الشات**")
-      .addField("***say :arrows_counterclockwise:**","**لـ يكرر الكلام اللى تقوله**")
-      .addField("***time :alarm_clock:**","**لـ معرفة الساعة**")
-      .addField("***date **","**لـ معرفة التاريخ**")
+      .addField("***roll :1234:**","**لـالقرعه من 1 - 100**")
+      .addField("***server :recycle:**","**لـمعلومات السيرفر**")
+      .addField("***roles :medal: **","**لعرض لائحة الرتب المتواجدة في السيرفر**")
+      .addField("***say :arrows_counterclockwise:**","**لـيكرر الكلام اللى تقوله**")
+      .addField("***time :alarm_clock:**","**لـمعرفة الساعة**")
+      .addField("***date **","**لـمعرفة التاريخ**")
 .setColor('RANDOM')
   message.author.sendEmbed(embed);
     }
@@ -41,12 +41,12 @@ if (message.content === '*help') {
          let embed = new Discord.RichEmbed()
 .setThumbnail(message.author.avatarURL)    
       .addField("**:radioactive: Moderation Commands**","** **")
-      .addField("***bc  :mega:**","**لـ البرودكاست**")
-      .addField("***clear :octagonal_sign:**","**لـ مسح الشات**")
+      .addField("***bc  :mega:**","**(Broadcast) لارسال رسالة الى جميع اعضاء السيرفر**")
+      .addField("***clear :octagonal_sign:**","**لـمسح الشات**")
 	  .addField("***createcolors :cyclone:**","** لـ اضافة 110 لون**")
 	  .addField("**!rainbow :camping:**","**لتغيير لون الرول كل تانية**")
-      .addField("***kick  :outbox_tray:**","**لـ طرد الأعضاء**")
-      .addField("***ban  :no_entry:**","**لـ حظر الأعضاء**")
+      .addField("***kick  :outbox_tray:**","**لـطرد الأعضاء**")
+      .addField("***ban  :no_entry:**","**لـحظر الأعضاء**")
 .setColor('RANDOM')
   message.author.sendEmbed(embed);
     }
@@ -172,7 +172,7 @@ client.on("message", message => {
         color: 0x06DF00,
         description: "تم مسح الرسائل بنجاح",
         footer: {
-          text: "ASG-ESPORTS System"
+          text: "Random Gate System"
         }
       }}).then(msg => {msg.delete(3000)});
                           }
@@ -180,7 +180,7 @@ client.on("message", message => {
      
 });
 client.on('ready',  () => {
-  console.log('By : i1Suhaib');
+  console.log('By : MATRIX');
   console.log(`Logged in as * [ " ${client.user.username} " ] servers! [ " ${client.guilds.size} " ]`);
   console.log(`Logged in as * [ " ${client.user.username} " ] Users! [ " ${client.users.size} " ]`);
   console.log(`Logged in as * [ " ${client.user.username} " ] channels! [ " ${client.channels.size} " ]`);
@@ -262,12 +262,12 @@ message.channel.sendEmbed(embed);
 });
 client.on('ready', () => {
    console.log(`----------------`);
-      console.log(`ASG-ESPORTS Bot- Script By : MΛTЯIXᴴᴰ`);
+      console.log(`Random Gate Bot- Script By : MΛTЯIXᴴᴰ`);
         console.log(`----------------`);
       console.log(`ON ${client.guilds.size} Servers '     Script By : MΛTЯIXᴴᴰ ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(` ASG-ESPORTS System *help`,"http://twitch.tv/S-F")
+client.user.setGame(` Random Gate Server *help`,"http://twitch.tv/randomgate")
 client.user.setStatus("dnd")
 });
 client.on("guildCreate", guild => {
